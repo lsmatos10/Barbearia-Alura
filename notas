@@ -1,0 +1,34 @@
+
+--- CORES ---
+binário 0 1 
+
+numérico 0123456789 
+
+* hexadecimal 0123456789ABCDEF 
+
+*RGB = Red Green Blue
+
+** Podemos representar a cor vermelha com o nome red, o hexadecimal #FF0000 e o RGB rgb(255,0,0)
+# _ _ _ _ _ _
+
+0 = ausência
+
+F = Máximo
+
+#000000 (PRETO)
+
+#FFFFFF (BRANCO)
+
+#FF0000
+
+RGB 0,1,2,3...255
+
+0 = ausência
+
+255 = Máximo
+
+
+                (vermelho,verde,azul)
+No CSS utilizar: rgb(0,0,0) = BRANCO
+rgb (0,0,255) = AZUL
+--- CORES ---
