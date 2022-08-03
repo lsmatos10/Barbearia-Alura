@@ -20,10 +20,66 @@ nav li {
     margin: 0 0 0 15px;
 }
 
-nav a {
-    text-transform: uppercase;
+nav a { /* link */
+    text-transform: uppercase; /* Transformação no texto para deixar tudo maiusculo */
     color: #000;
-    font-weight: bold;
+    font-weight: bold; /* negrito */
     font-size: 22px;
-    text-decoration: none;
+    text-decoration: none; /* tiramos sublinhado*/
+
+}
+
+
+nav a:hover{
+    color: #0099ff;
+    text-decoration: underline;
+}
+
+nav a:active{
+    color:#088c19
+}
+
+.produtos {
+    width: 940px;
+    margin: 0 auto;
+    padding: 50px;
+}
+
+.produtos li {
+    display: inline-block;
+    text-align: center; /* Deixa os itens centralizado */ 
+    width: 30%; /* largura */ 
+    vertical-align: top;
+    margin: 0 1.5%; /* Espaçamento entre altura e largura */
+    padding: 30px 20px; /* O elemento aumenta o seu tamanho. Quando declaro que existe um espaçamento interno, estou aumentando o conteúdo. */
+    box-sizing: border-box; /* incluir o preenchimento ea borda na largura e altura total */
+    /*border-color: #000;
+    border-width:2px;
+    border-style: solid;  Estilo da borda */
+    border: 2px solid #000;
+    border-radius: 10px; /* Arredondar borda */
+
+}
+
+.produtos li:hover { /* ao passar o mouse por cima */
+    border-color: #0099FF;
+}
+
+.produtos li:active{ /* quando clicar muda a cor */
+    border-color: #088c19
+}
+
+.produtos h2{
+    font-size: 30px; /* tamanho da fonte */
+    font-weight: bold; /* fonte negrito */
+}
+
+.produto-descricao{
+    font-size: 18px; /* tamanho da fonte */
+}
+
+.produto-preco{
+    font-size: 22px; /* tamanho da fonte */
+    font-weight: bold; /* fonte negrito */
+    margin: 10px; /* espaçamento interno */
 }
