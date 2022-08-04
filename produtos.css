@@ -63,10 +63,15 @@ nav a:active{
 
 .produtos li:hover { /* ao passar o mouse por cima */
     border-color: #0099FF;
+    font-size: 40px;
 }
 
 .produtos li:active{ /* quando clicar muda a cor */
     border-color: #088c19
+}
+
+.produtos li:hover h2{ /* quero que o h2 ao passar o mouse  */
+font-size: 34px;
 }
 
 .produtos h2{
@@ -82,4 +87,16 @@ nav a:active{
     font-size: 22px; /* tamanho da fonte */
     font-weight: bold; /* fonte negrito */
     margin: 10px; /* espaçamento interno */
+}
+
+footer {
+    text-align: center;
+    background: url("bg.jpg"); 
+    padding: 40px 0;
+}
+
+.copyright{
+    color:white;
+    font-size: 13px;
+    margin: 20px 0 0;
 }
