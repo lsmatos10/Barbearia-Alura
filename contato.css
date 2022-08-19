@@ -1,0 +1,55 @@
+header { /* */
+    background: #BBB; 
+    padding: 20px 0;
+}
+
+.caixa {
+    position: relative;
+    width: 940px;
+    margin: 0 auto; /* centralizar utilizando a margin automatica */
+}
+
+nav {
+    position: absolute;
+    top: 110px;
+    right: 0px;
+}
+
+nav li { 
+    display: inline;
+    margin: 0 0 0 15px;
+}
+
+nav a { /* link */
+    text-transform: uppercase; /* Transformação no texto para deixar tudo maiusculo */
+    color: #000;
+    font-weight: bold; /* negrito */
+    font-size: 22px;
+    text-decoration: none; /* tiramos sublinhado*/
+}
+
+nav a:hover{
+    color: #0099ff;
+    text-decoration: underline;
+}
+
+nav a:active{
+    color:#088c19
+}
+/*
+--------------------------------------------------------------------- 
+
+
+
+---------------------------------------------------------------------*/
+footer {
+    text-align: center;
+    background: url("bg.jpg"); 
+    padding: 40px 0;
+}
+
+.copyright{
+    color:white;
+    font-size: 13px;
+    margin: 20px 0 0;
+}

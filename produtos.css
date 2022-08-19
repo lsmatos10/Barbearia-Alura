@@ -1,5 +1,5 @@
-header { //* */
-    background: #BBBB; 
+header { /* */
+    background: #BBB; 
     padding: 20px 0;
 }
 
@@ -26,9 +26,7 @@ nav a { /* link */
     font-weight: bold; /* negrito */
     font-size: 22px;
     text-decoration: none; /* tiramos sublinhado*/
-
 }
-
 
 nav a:hover{
     color: #0099ff;
